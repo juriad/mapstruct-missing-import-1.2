@@ -1,0 +1,7 @@
+Demonstrates regression in Mapstruct between 1.1 and 1.2
+
+Building: gradle build
+
+1) Just try, it won't work
+2) Lower mapstruct version to 1.1 in gradle.build, it will work
+3) Change back to 1.2 and add imports={Tag.class} to @Mapper, it will work
